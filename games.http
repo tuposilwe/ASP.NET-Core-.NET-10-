@@ -1,0 +1,29 @@
+GET  http://localhost:5239/games
+
+###
+GET  http://localhost:5239/games/3
+
+###
+POST  http://localhost:5239/games
+Content-Type: application/json
+
+{
+    "name": "Super Mario Bros. Wonder",
+    "genre": "Platformer",
+    "price": 55.99,
+    "releaseDate": "2023-10-20"
+}
+
+###
+PUT  http://localhost:5239/games/6
+Content-Type: application/json
+
+{
+    "name": "Astro Bot",
+    "genre": "RPG",
+    "price": 26.95,
+    "releaseDate": "2017-11-18"
+}
+
+###
+DELETE  http://localhost:5239/games/3
