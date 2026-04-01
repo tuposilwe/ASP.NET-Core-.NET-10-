@@ -20,10 +20,10 @@ Content-Type: application/json
 
 {
     "name": "Astro Bot",
-    "genre": "RPG",
+    "GenreId": 1,
     "price": 26.95,
     "releaseDate": "2017-11-18"
 }
 
 ###
-DELETE  http://localhost:5239/games/3
+DELETE  http://localhost:5239/games/2
